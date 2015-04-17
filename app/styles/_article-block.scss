@@ -1,0 +1,16 @@
+// .article-block.scss
+
+.article-block {
+  color: $white;
+  width: 32%;
+  height: 20em;
+  background-image:
+  linear-gradient(red, #f06d06);
+  img {
+    z-index: -10;
+    max-width: none;
+  }
+  time {
+    float: right;
+  }
+}
