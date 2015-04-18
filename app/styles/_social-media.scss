@@ -1,8 +1,8 @@
 // .socialmedia.scss
 
 .social-media {
+  @include clearfix;
   font-size: 1rem;
-
   h2 {
     @include visuallyhidden;
   }
