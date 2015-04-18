@@ -38,6 +38,12 @@ img {
   @include clearfix;
   margin: 0;
   padding-top: 1em;
+  a {
+    text-decoration: none;
+    &:hover {
+      color: $pink;
+    }
+  }
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
