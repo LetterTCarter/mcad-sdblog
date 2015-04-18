@@ -7,6 +7,16 @@
   h2 {
   @include visuallyhidden;
   }
+  .mcad-logo {
+    border: 0 none;
+    padding-top: 0.35em;
+    text-align: right;
+    width: 6em;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+  }
   ul {
     @include clearfix;
     margin: 0.625em;
@@ -24,7 +34,7 @@
     text-decoration: none;
     padding: 0.5em 0.25em;
     display: inline-block;
-    &:hover{
+    &:hover {
       color: $black;
     }
   }
