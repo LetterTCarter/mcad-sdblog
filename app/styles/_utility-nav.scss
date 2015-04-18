@@ -6,35 +6,28 @@
   h2 {
   @include visuallyhidden;
   }
-  .mcad-logo {
-    border: 0 none;
-    padding-top: 0.35em;
-    text-align: right;
-    width: 6em;
-    opacity: 0.5;
-    &:hover {
-      opacity: 1;
-    }
-  }
   ul {
     @include clearfix;
-    margin: 0.625em;
-    padding: 0;
+    margin: 0;
+    padding: 0.5em;
     list-style-type: none;
   }
   li {
     float: left;
-    padding: 0 0.5em;
-    border-left: 1px solid $gray;
-  }
+    }
   a {
     color: $gray;
     font-weight: 500;
     text-decoration: none;
-    padding: 0.5em 0.25em;
+    padding: 0.5em 0.5em;
+    border-left: 1px solid $gray;
     display: inline-block;
     &:hover {
       color: $black;
     }
   }
+}
+.brochure {
+  background: url('../images/mcad-brochure.png') no-repeat 6em 0.2em;
+  width: 10em;
 }

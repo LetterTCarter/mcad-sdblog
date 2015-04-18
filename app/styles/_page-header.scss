@@ -1,0 +1,21 @@
+// .page-header.scss
+
+.page-header {
+  background-color: yellow;
+  position: relative;
+  .utility-nav-group {
+    width: 20em;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .utility-nav {
+    border: 1px solid red;
+    float: left;
+  }
+  .mcad-logo {
+    border: 1px solid red;
+    float: right;
+  }
+}

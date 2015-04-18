@@ -1,0 +1,10 @@
+// .mcad-logo.scss
+
+.mcad-logo {
+  display: block;
+  height: 1.25em;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
