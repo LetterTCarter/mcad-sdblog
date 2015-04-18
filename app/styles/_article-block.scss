@@ -2,15 +2,30 @@
 
 .article-block {
   color: $white;
-  width: 32%;
+  width: 40%;
   height: 20em;
+  margin: 0.25em 0.5em 0.25em 0;
+  padding: 0;
   background-image:
   linear-gradient(red, #f06d06);
+  border: 1px solid $gray-lighter;
+  float: left;
   img {
     z-index: -10;
     max-width: none;
   }
+  header {
+    margin: 0;
+    padding: 1.875em;
+  }
   time {
+    margin: 0;
     float: right;
+  }
+  p {
+    margin: 0;
+  }
+  h1 {
+    margin: 0;
   }
 }
